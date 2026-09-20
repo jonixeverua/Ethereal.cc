@@ -617,3 +617,5 @@ end)
 CameraConnection = Workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function()
 	Camera = Workspace.CurrentCamera
 end)
+
+return Library
